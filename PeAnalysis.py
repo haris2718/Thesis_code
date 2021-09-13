@@ -16,9 +16,6 @@ import validators
 
 
 FIELD_SIZE = 36
-#
-#VirusTotalKey="be1e37b8147bdd6b5b95ab060c4832e30db81b58b2f867ffbe9d09b4baffb2a4"
-#virusTatalkey2="2b4698f7428ca31e5137fcbf5e1c1da7e7255a4d47af7b1ef216c28f519eddac"
 
 def arguments():
     '''
@@ -350,7 +347,7 @@ def floss(filePath):
     config_handler.set_global(spinner='stars')
     try:
         process=subprocess.Popen(
-            [r'C:\Users\Haris\Desktop\διπλωματικη\tools\floss-v1.7.0-windows\floss.exe ', '-q', '--no-static-strings',
+            [r'floss.exe ', '-q', '--no-static-strings',
              filePath], stdout=subprocess.PIPE,stderr=subprocess.PIPE,encoding="utf-8")
     except:
         print("An exception occurred")
