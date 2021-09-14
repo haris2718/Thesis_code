@@ -1,0 +1,87 @@
+cfg, Control Flow Guard (CFG) section (added by newer versions of Visual Studio)
+.AAWEBS, section used by Amiti Antivirus DLLs webspam.dll and webspamwow64.dll
+.apiset,a section present inside the apisetschema.dll
+.arch,Alpha-architecture section
+.autoload_text,cygwin/gcc; the Cygwin DLL uses a section to avoid copying certain data on fork.
+.bindat,Binary data (also used by one of the downware installers based on LUA)
+.bootdat,section that can be found inside Visual Studio files; contains palette entries
+.bss,Uninitialized Data Section
+.BSS,Uninitialized Data Section
+.buildid,gcc/cygwin; Contains debug information (if overlaps with debug directory)
+.CLR_UEF,.CLR Unhandled Exception Handler section; see https://github.com/dotnet/coreclr/blob/master/src/vm/excep.h
+.code,Code Section
+.cormeta,.CLR Metadata Section
+.complua,"Binary data, most likely compiled LUA (also used by one of the downware installers based on LUA)"
+.CRT,Initialized Data Section  (C RunTime)
+.cygwin_dll_common,cygwin section containing flags representing Cygwin’s capabilities; refer to cygwin.sc and wincap.cc inside Cygwin run-time
+.data,Data Section
+.DATA,Data Section
+.data1,Data Section
+.data2,Data Section
+.data3,Data Section
+.debug,Debug info Section
+.debug$F,Debug info Section (Visual C++ version <7.0)
+.debug$P,Debug info Section (Visual C++ debug information
+.debug$S,Debug info Section (Visual C++ debug information
+.debug$T,Debug info Section (Visual C++ debug information
+.drectve ,"directive section (temporary, linker removes it after processing it; should not appear in a final PE image)"
+.didat,Delay Import Section
+.didata,Delay Import Section
+.edata,Export Data Section
+.eh_fram,gcc/cygwin; Exception Handler Frame section
+.export,Alternative Export Data Section
+.fasm,FASM flat Section
+.flat,FASM flat Section
+.gfids,section added by new Visual Studio (14.0); purpose unknown
+.giats,section added by new Visual Studio (14.0); purpose unknown
+.gljmp,section added by new Visual Studio (14.0); purpose unknown
+.glue_7t,ARMv7 core glue functions (thumb mode)
+.glue_7,ARMv7 core glue functions (32-bit ARM mode)
+.idata,Initialized Data Section  (Borland)
+.idlsym,IDL Attributes (registered SEH)
+.impdata,Alternative Import data section
+.import,Alternative Import data section
+.itext,Code Section  (Borland)
+.ndata,Nullsoft Installer section
+.orpc,Code section inside rpcrt4.dll
+.pdata,Exception Handling Functions Section (PDATA records)
+.rdata,Read-only initialized Data Section  (MS and Borland)
+.reloc,Relocations Section
+.rodata,Read-only Data Section
+.rsrc,Resource section
+.sbss,GP-relative Uninitialized Data Section
+.script,Section containing script
+.shared,Shared section
+.sdata,GP-relative Initialized Data Section
+.srdata,GP-relative Read-only Data Section
+.stab,Created by Haskell compiler (GHC)
+.stabstr,Created by Haskell compiler (GHC)
+.sxdata,Registered Exception Handlers Section
+.text,Code Section
+.text0,Alternative Code Section
+.text1,Alternative Code Section
+.text2,Alternative Code Section
+.text3,Alternative Code Section
+.textbss,Section used by incremental linking
+.tls,Thread Local Storage Section
+.tls$,Thread Local Storage Section
+.udata,Uninitialized Data Section
+.vsdata,GP-relative Initialized Data
+.xdata,Exception Information Section
+.wixburn,Wix section; see https://github.com/wixtoolset/wix3/blob/develop/src/burn/stub/StubSection.cpp
+.wpp_sf ,section that is most likely related to WPP (Windows software trace PreProcessor); not sure how it is used though; the code inside the section is just a bunch of routines that call FastWppTraceMessage that in turn calls EtwTraceMessage
+BSS,Uninitialized Data Section  (Borland)
+CODE,Code Section (Borland)
+DATA,Data Section (Borland)
+DGROUP,Legacy data group section
+edata,Export Data Section
+idata,Initialized Data Section  (C RunTime)
+INIT,INIT section (drivers)
+minATL,"Section that can be found inside some ARM PE files; purpose unknown; .exe files on Windows 10 also include this section as well; its purpose is unknown, but it contains references to ___pobjectentryfirst,___pobjectentrymid,___pobjectentrylast pointers used by Microsoft::WRL::Details::ModuleBase::… methods described e.g. here, and also referenced by .pdb symbols; so, looks like it is being used internally by Windows Runtime C++ Template Library (WRL) which is a successor of Active Template Library (ATL); further research needed"
+PAGE,PAGE section (drivers)
+rdata,Read-only Data Section
+sdata,Initialized Data Section
+shared,Shared section
+Shared,Shared section
+testdata,section containing test data (can be found inside Visual Studio files)
+text,Alternative Code Section
