@@ -448,12 +448,7 @@ def main():
 
     if res.OUT:
         with open(res.OUT, "w+") as outfile:
-            rep=""
-            for i in report:
-                i=i.replace('[31m','')
-                i=i.replace('[0m','')
-                rep+=i
-            outfile.write(rep)
+            outfile.write(report)
             outfile.close()
             print("Saving file "+res.OUT)
 
