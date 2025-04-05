@@ -1,4 +1,4 @@
-# 🔍 PE Analyzer - Εργαλείο Ανάλυσης Εκτελέσιμων Αρχείων Windows
+# 🔍 PE Analysis - Εργαλείο Ανάλυσης Εκτελέσιμων Αρχείων Windows
 
 ## 📌 Τι είναι τα PE αρχεία;
 
