@@ -77,18 +77,6 @@ python main.py test.exe --bit -md5 -sha1 --section_data -s --intresting -r -o fi
 
 ---
 
-## Εξαρτήσεις
-
-Για να λειτουργήσει το πρόγραμμα απαιτούνται οι εξής Python βιβλιοθήκες:
-
-- pefile
-- rich
-- validators
-- requests
-- floss (για το `--floss`)
-- argparse
-- hashlib
-- datetime
 
 Εγκατάσταση:
 
